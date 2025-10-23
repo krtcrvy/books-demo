@@ -48,13 +48,7 @@ Each book in the system has the following structure:
 Start the FastAPI server:
 
 ```bash
-python main.py
-```
-
-Or using uvicorn directly:
-
-```bash
-uvicorn main:app --reload
+fastapi dev main.py
 ```
 
 The API will be available at `http://localhost:8000`
